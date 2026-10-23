@@ -51,13 +51,3 @@ payment methods, M-Pesa references, customer signup dates and loyalty tiers.
 - Seasonality follows the original US calendar, not Kenyan paydays, school terms or holidays.
 - County populations are approximate and the payment shares are assumptions,
   not calibrated figures.
-- The source data's license applies to the Dunnhumby portion. [Add the license terms
-  you confirmed on Kaggle before publishing.]
-
-### Reproducing the dataset
-Download the Dunnhumby dataset from Kaggle, place it in `data/dunnhumby/`, then run:
-```bash
-python data.py
-```
-Output is written to `data/kenya_retail/`. All parameters (FX rate, price scale, promo
-threshold, number of stores) are set at the top of the script.
