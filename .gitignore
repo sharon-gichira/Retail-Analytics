@@ -1,1 +1,10 @@
-Data/
+# Large data (regenerate with data/data.py)
+Data/dunnhumby/
+Data/kenya_retail/
+
+# Environments and caches
+virtualenv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
